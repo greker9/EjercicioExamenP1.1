@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen I</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="mt-4 p-5 bg-warning text-white rounded">
+        <h1>Examen I</h1>
+        <p>Programacion web 1</p>
+      </div>
+
+
+
+      
+
+    <div class="form-control">
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Producto 1:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="txtN1" class="form-control"/>
+                </div>
+            </div>
+        </div>
+       
+       
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Producto 2:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="txtN2" class="form-control"/>
+                </div>
+            </div>
+        </div>     
+
+
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Producto 3:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="txtN3" class="form-control"/>
+                </div>
+            </div>
+        </div>   
+
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Producto 4:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="txtN4" class="form-control"/>
+                </div>
+            </div>
+        </div>     
+
+
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Producto 5:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="txtN5" class="form-control"/>
+                </div>
+            </div>
+        </div>  
+
+
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">SubTotal:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="number" id="SubTotal" class="form-control" readonly/>
+                </div>
+            </div>
+        </div>  
+
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Descuento:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="Descuento" class="form-control" readonly/>
+                </div>
+            </div>
+        </div> 
+
+        <div class="mb-2">
+            <div class="row align-items-center">
+                <div class="col-2">
+                    <label class="form-label">Total a Pagar:</label>
+                </div>
+                <div class="col-auto">
+                    <input type="text" id="TotalaPagar" class="form-control" readonly/>
+                </div>
+            </div>
+        </div> 
+        
+        
+
+        <button type="button" class="btn btn-primary" onclick="calcular()">Calcular</button>
+        <button type="button" class="btn btn-danger" onclick="limpiar()">Limpiar campos</button>
+    </div>
+    <div class="row-12">
+    </div>
+
+    <div class="mt-5 p-4 bg-secondary text-white text-center">
+        <p>David Arturo Funez</p>
+
+      </div>
+
+
+    <script src="js/index.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+</body>
+</html>
